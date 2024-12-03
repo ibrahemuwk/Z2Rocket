@@ -28,7 +28,7 @@ namespace RocketAPI.Controllers
                 "As we prepare to witness this historic event, let us pause and reflect on the enormity of what we are about to experience. " +
                 "This rocket is not just a vehicle, but a bridge to new possibilities, " +
                 "pushing the limits of what we know and exploring the vast unknown.\r\n\r\n" +
-                "In just moments, we will send [Rocket Name] soaring into the sky. " +
+                "In just moments, we will send Z2Rocket_Ibrahim_1.0.1 soaring into the sky. " +
                 "The countdown is nearing its final seconds, and soon the roar of the engines will echo, " +
                 "lifting us higher, reaching further, and bringing us closer to unlocking the mysteries of space.\r\n\r\n" +
                 "Are you ready? Here we go, let’s make history together.\r\n\r\n" +
