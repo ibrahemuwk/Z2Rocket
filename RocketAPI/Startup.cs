@@ -4,6 +4,7 @@ using System.IO.Compression;
 using Newtonsoft.Json;
 using StructureMap;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Builder;
 
 namespace RocketAPI
 {
@@ -84,6 +85,10 @@ namespace RocketAPI
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
             app.UseEndpoints(routes =>
             {
                 routes.MapControllerRoute(

@@ -2012,11 +2012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Z2Projects\\Z2Rocket\\RocketAPI\\RocketAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ibrahim.meligy\\source\\repos\\Z2Rocket\\RocketAPI\\RocketAPI.csproj",
       "projectName": "RocketAPI",
-      "projectPath": "D:\\Z2Projects\\Z2Rocket\\RocketAPI\\RocketAPI.csproj",
+      "projectPath": "C:\\Users\\ibrahim.meligy\\source\\repos\\Z2Rocket\\RocketAPI\\RocketAPI.csproj",
       "packagesPath": "C:\\Users\\ibrahim.meligy\\.nuget\\packages\\",
-      "outputPath": "D:\\Z2Projects\\Z2Rocket\\RocketAPI\\obj\\",
+      "outputPath": "C:\\Users\\ibrahim.meligy\\source\\repos\\Z2Rocket\\RocketAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

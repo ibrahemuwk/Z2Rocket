@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RocketAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93bfe56009f00c3bce61d5f27fc055a377ecff3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3e04abbaff89e8d59d4c0584d498c0a85c2595f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RocketAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RocketAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

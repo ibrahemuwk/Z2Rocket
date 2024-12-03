@@ -2,9 +2,10 @@
 
 namespace RocketAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
+    //[Route("api/[controller]")]
     [ApiController]
-    public class RocketController : ControllerBase
+    public class RocketController : Controller
     {
         public RocketController()
         {
@@ -12,7 +13,7 @@ namespace RocketAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult<RocketModel> Get()
+        public ActionResult<RocketModel> GetRocketLunchingMessage()
         {
             
             string Message =  "Today marks an extraordinary moment in the history of space exploration as we prepare for the launch of Z2Rocket, " +
@@ -35,6 +36,13 @@ namespace RocketAPI.Controllers
 
            return new RocketModel() { Message = Message , CurrentDate = DateTime.Now};
         }
+
+        [HttpGet]
+        public ActionResult<string> TestRunning()
+        {
+            return Ok("how are you?");
+        }
+
     }
 
     public class RocketModel

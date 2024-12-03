@@ -9,7 +9,7 @@ export class RocketService {
 constructor(private http: HttpClient) { }
 
 getRocketMsgRequest():any{
-  this.http.get<any>('http://localhost:3400/api/Rocket');
+  this.http.get<any>('http://localhost:3400/api/Rocket/GetRocketLunchingMessage');
 }
 
 }

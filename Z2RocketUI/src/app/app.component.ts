@@ -15,17 +15,12 @@ export class AppComponent {
   rocketMsg:any = {};
 
   constructor(private rocketService:RocketService,private http: HttpClient){
-    // this.getRocketMsg();
     this.getRocketMsgRequest();
   }
 
-  getRocketMsg(){
-    this.rocketService.getRocketMsgRequest().subscribe((res:any)=>{
-      this.rocketMsg = res;
-    });
-  }
+
   getRocketMsgRequest():any{
-    this.http.get<any>('http://localhost:3400/api/Rocket').subscribe((data) => {
+    this.http.get<any>('http://localhost:3400/api/Rocket/GetRocketLunchingMessage').subscribe((data) => {
       this.rocketMsg = data;
     });
   }
